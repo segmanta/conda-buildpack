@@ -84,6 +84,11 @@ source $BIN_DIR/steps/geoip
 # Actuall do the conda steps.
 source $BIN_DIR/steps/conda_compile
 
+# Django collectstatic support.
+sub-env $BIN_DIR/steps/collectstatic
+
+
+
 # ### Finalize
 #
 
